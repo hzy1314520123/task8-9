@@ -1,0 +1,524 @@
+
+.clearfix { 
+
+  *zoom: 1; 
+
+} 
+
+.clearfix:before, 
+
+.clearfix:after { 
+
+  display: table; 
+
+  line-height: 0; 
+
+  content: ""; 
+
+} 
+
+.clearfix:after { 
+
+  clear: both; 
+
+} 
+
+
+
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #FAFAFA;
+}
+body a{
+	text-decoration: none;
+	color: white;
+}
+body a:hover{
+	text-decoration: none;
+	border-bottom: solid 1px white;
+	color: white;
+}
+/* 客服热线*/
+.head-top{
+	line-height: 40px;
+	color: #1FB176;
+	height: 40px;
+}
+.service{
+	margin-left: 360px;
+	color: #1fb176;
+	float: left;
+}
+.share{
+	margin-right: 360px;
+	float: right;
+}
+.share a{
+	font-size: 1.2rem;
+	margin-left: 1rem;
+	font-weight: bold;
+	color: #1FB176;
+}
+@media screen and (max-width: 2560px) {
+	.service{
+		margin-left: 6.5vw;
+	}
+	.share{
+		margin-right: 6.5vw;
+	}
+}
+
+
+/*页眉菜单*/
+header{
+    position:relative;
+	background-color:#1FB176; 
+	line-height: 6rem;
+	height: 6rem;
+}
+.skill{
+	height: 4vw;
+    width: 5vw;
+    margin-top: 0.5vw;
+	background:url(../img-task8/职位列表1234_03.jpg) left no-repeat;
+	background-size: 100%;
+	float: left;
+	margin-left: 14.5vw;
+}
+.head-menu{
+    position: absolute;
+    top: 0;
+    right: 0.5vw;
+	font-family: "微软雅黑";
+	color: white;
+	text-align: center;
+	margin-right: 13vw;
+	float: right;
+}
+.head-menu div{
+	height: 5.75rem;
+	width: 6rem;
+	float: left;
+}
+.head-menu div:hover{
+	border-bottom:solid 0.3rem white;
+}
+/*媒体查询*/
+@media screen and (max-width: 425px) {
+	.skill{
+		height: 2rem;
+		width: 5rem;
+		margin-top: 1.8rem;
+		margin-left: 6.5vw;
+	}
+	.carousel-indicators{
+		bottom: -1rem;
+	}
+	.head-menu{
+	    float: right;
+	    width:17rem;
+		margin-right: 0;
+	}
+	.head-menu div{
+		height: 4.86rem;
+		width: 4rem;
+	}
+	header{
+		height: 5rem;
+		line-height: 5rem;
+	}
+}
+@media screen and (min-width: 426px) and (max-width: 2560px){
+   .skill{
+		height: 2rem;
+		width: 5rem;
+		margin-top: 1.8rem;
+		margin-left: 6.5vw;
+	}
+	.carousel-indicators{
+		bottom: -1rem;
+	}
+	.head-menu{
+	    position: absolute;
+	    top: 0;
+	    right: 3.5vw;
+	    float: right;
+	    width:17rem;
+		margin-right: 0;
+	}
+	.head-menu div{
+		height: 4.86rem;
+		width: 4rem;
+	}
+	header{
+		height: 5rem;
+		line-height: 5rem;
+	}
+   
+}
+
+
+
+
+
+/*主体部分*/
+main{
+	margin: 0 auto;
+	width: 80%;
+}
+.page{
+	font-weight:bold;
+    border-bottom: solid 1px #C0C0C0;
+    line-height: 5.5rem;
+	height: 5.5rem;
+	font-size: 1.5rem;
+}
+.page a{
+	color: #1FB176;
+}
+.direction{
+	color: #C0C0C0;
+	font-weight: bold;
+	border-bottom: solid 1px #C0C0C0;
+	line-height: 3.5rem;
+	max-height: 10rem;
+	font-size: 1.2rem;
+}
+.direction a{
+	color: #3C3C3C;
+	margin-left: 2rem;
+}
+.direction a:hover{
+	background-color: #1FB176;
+	color: white;
+}
+.devolop{
+	border-bottom: solid 1px #C0C0C0;
+	font-weight: bold;
+	color: #000000;
+	font-size: 1.5rem;
+	line-height: 5.5rem;
+	height: 5.5rem;
+}
+
+/*黑色介绍图*/
+.intraduce{
+	color: white;
+	text-align: center;
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0 2rem;
+	height: 100%;
+	background-color: #000000;
+	opacity: 0.7;
+}
+.intraduce-one{
+	margin-top: 3rem;
+	font-size: 2rem;
+}
+.intraduce-two{
+	font-size: 2rem;
+	margin-top: 3rem;
+}
+.devolopone:hover .intraduce{
+	display: block;
+}
+.devolopone1:hover .intraduce{
+	display: block;
+}
+.devolopone2:hover .intraduce{
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+/*职业详细*/
+.devolop-part{
+	padding-top: 2vw;
+	height: 25vw;
+	margin-bottom: 4vw;
+}
+.devolopone{
+	position: relative;
+	margin-right: 1.5vw;
+	float: left;
+	box-shadow: 2px 2px 9px #C0C0C0;
+	width: 32%;
+}
+.devolopone1{
+	position: relative;
+	margin-right: 1.2vw;
+	float: left;
+	box-shadow: 2px 2px 9px #C0C0C0;
+	width: 32%;
+}
+.devolopone2{
+	position: relative;
+	box-shadow: 2px 2px 9px #C0C0C0;
+	float: left;
+	width: 32%;
+}
+.devolopone-part{
+	height: 165px;
+	border-bottom: solid 1px #CCCCCC;
+}
+.devolone-part2{
+	height: 100%;
+	padding: 10px;
+}
+.oneleft{
+	margin-top: 2px;
+	margin-right: 15px;
+	float: left;
+	background: url(../img-task8/职位列表_05.jpg) left no-repeat;
+	background-size: 100%;
+	max-width: 144px;
+}
+
+.oneright-p1{
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.oneright-p2{
+	margin-top: 2rem;
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  max-height: 98px;
+	
+}
+.devoloptwo,.devolopthree{
+	overflow: hidden;
+	color: #C0C0C0;
+	border-bottom: solid 1px #CCCCCC;
+	line-height: 1.1;
+	max-height: 85px; 
+}
+.devolop-partone{
+	padding:10px;
+	border-right: solid 1px #CCCCCC;
+	width: 49%;
+	height: 100%;
+	float: left;
+}
+.devolop-parttwo{
+	padding:10px;
+	width: 50%;
+	height: 100%;
+	float: right;
+}
+.devoloptwo a{
+	color: red;
+	margin-left: 0.5vw;
+}
+/*成长周期*/
+.devolopthree-one ,.devolopthree-two{
+	padding: 10px;
+	float: left;
+	width: 49%;
+}
+.devolopthree-two{
+	border-left: solid 1px #CCCCCC;
+}
+.devolopthree a{
+	margin-left: 0.5vw;
+	color: red;
+}
+/*薪资待遇*/
+.devolopfour{
+	overflow: hidden;
+	align-items: center;
+	border-bottom: solid 1px #CCCCCC;
+	max-height: 150px;
+}
+.devolopfour-one{
+  padding-top: 38px;
+	color: #CCCCCC;
+	text-align: center;
+	width: 40%;
+	min-height: 90px;
+	float: left;
+}
+.devolopfour-two{
+	border-left: solid 1px #CCCCCC;
+	min-height: 65px;
+	width: 60%;
+	float: right;
+}
+.devolopfour-two1{
+	padding: 10px;
+	overflow: hidden;
+	border-bottom: solid 1px #CCCCCC;
+	width: 100%;
+	min-height: 16px;
+}
+.devolopfour-two2{
+	padding: 10px;
+	overflow: hidden;
+	width: 100%;
+	min-height: 16px;
+}
+
+.dft-left{
+	margin: 0;
+	width: 40%;
+	float: left;
+}
+.dft-right{
+	margin: 0;
+	text-align: right;
+	width: 60%;
+	float: right;
+}
+.devolopfive{
+	padding-left: 1vw;
+	border-bottom: solid 1px #CCCCCC;
+	line-height: 38px;
+	min-height: 38px;
+}
+.devolopfive a{
+	color: red;
+}
+.devolopsix{
+	color: #CCCCCC;
+	padding:0 0.5vw;
+	line-height: 20px;
+	min-height: 38px;
+}
+.devolop-part1{
+	padding-top: 2vw;
+	height: 53vw;
+	margin-bottom: 4vw;
+}
+.mtop{
+	margin-top: 4rem;
+}
+
+@media only screen and (max-width:768px) {
+	 .devolop-part{
+	 	min-height: 1503px;
+	 }
+	 .devolopone,.devolopone1,.devolopone2{
+	 	width: 100%;
+	 	margin-bottom: 60px;
+	 	float: none;
+	 }
+	 .devolopone-part{
+	 	overflow: hidden;
+	 }
+	 
+	 .oneright{
+	 	padding-top: 2vw;
+	 	max-height: 80px;
+	 	width: 58vw;
+	 	font-size: 0.5rem;
+	 }
+	 .oneright:nth-child(2){
+	 	height: 80px;
+	 }
+	 .oneright-p1{
+	 	height: 20px;
+	 }
+	 .devolop-part1{
+	 	min-height: 2451px;
+	 }
+}
+@media only screen and (min-width: 768px) {
+	.devolop-part1{
+	 	min-height: 1000px;
+	 }
+	.devolop-part{
+	 	min-height: 500px;
+	 } 
+}
+
+
+
+
+
+
+
+/*尾部部分*/
+footer{
+	color: white;
+	background-color: #1da36d;
+	height: 12rem;
+}
+.footerpart{
+	padding-bottom: 2rem;
+	padding-top: 2rem;
+	margin: auto ;
+	text-align: left;
+    width: 60%;
+}
+.footer-part{
+	float: left;
+}
+.footer-partone{
+	margin-left: 10rem;
+	float: left;
+}
+
+.wechat{
+	float: right;
+}
+.wechatone{
+	height: 8rem;
+	width: 8rem;
+	background-size: 100%;
+	background: url(../img-task8/技能树首页_33.jpg) left no-repeat;
+}
+.fp-p{
+	margin-top: 5rem;
+}
+.fp-one{
+	margin-top: 2rem;
+}
+.fp-two{
+	margin-top: 2rem;
+}
+/*京号*/
+.copys{
+	border-top: solid 1px #1FB176;
+	color: white;
+	text-align: center;
+	background-color: #1da36d;
+	line-height: 2rem;
+	height: 2rem;
+}
+@media only screen and (max-width: 1024px) {
+	footer{
+		height: 36rem;
+	}
+	.footerpart{
+		text-align: center;
+	}
+	.footer-part,.footer-partone,.wechat{
+		float: none;
+	}
+	.footer-partone{
+		margin-left: 0;
+		padding-top: 3rem;
+	}
+	.wechat{
+		padding-top: 3rem;
+	}
+	.wechatone{
+		margin: 0 auto;
+	}
+	.copys{
+		height: 5rem;
+	}
+}

@@ -1,0 +1,836 @@
+
+.clearfix { 
+
+  *zoom: 1; 
+
+} 
+
+.clearfix:before, 
+
+.clearfix:after { 
+
+  display: table; 
+
+  line-height: 0; 
+
+  content: ""; 
+
+} 
+
+.clearfix:after { 
+
+  clear: both; 
+
+} 
+
+
+
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #FAFAFA;
+}
+body a{
+	text-decoration: none;
+	color: white;
+}
+body a:hover{
+	text-decoration: none;
+	border-bottom: solid 1px white;
+	color: white;
+}
+/* 客服热线*/
+.head-top{
+	line-height: 40px;
+	color: #1FB176;
+	height: 40px;
+}
+.service{
+	margin-left: 360px;
+	color: #1fb176;
+	float: left;
+}
+.share{
+	margin-right: 360px;
+	float: right;
+}
+.share a{
+	font-size: 1.2rem;
+	margin-left: 1rem;
+	font-weight: bold;
+	color: #1FB176;
+}
+@media screen and (max-width: 2560px) {
+	.service{
+		margin-left: 6.5vw;
+	}
+	.share{
+		margin-right: 6.5vw;
+	}
+}
+
+
+/*页眉菜单*/
+header{
+    position:relative;
+	background-color:#1FB176; 
+	line-height: 6rem;
+	height: 6rem;
+}
+.skill{
+	height: 4vw;
+    width: 5vw;
+    margin-top: 0.5vw;
+	background:url(../img-task8/职位列表1234_03.jpg) left no-repeat;
+	background-size: 100%;
+	float: left;
+	margin-left: 14.5vw;
+}
+.head-menu{
+    position: absolute;
+    top: 0;
+    right: 0.5vw;
+	font-family: "微软雅黑";
+	color: white;
+	text-align: center;
+	margin-right: 13vw;
+	float: right;
+}
+.head-menu div{
+	height: 5.75rem;
+	width: 6rem;
+	float: left;
+}
+.head-menu div:hover{
+	border-bottom:solid 0.3rem white;
+}
+/*媒体查询*/
+@media screen and (max-width: 425px) {
+	.skill{
+		height: 2rem;
+		width: 5rem;
+		margin-top: 1.8rem;
+		margin-left: 6.5vw;
+	}
+	.carousel-indicators{
+		bottom: -1rem;
+	}
+	.head-menu{
+	    float: right;
+	    width:17rem;
+		margin-right: 0;
+	}
+	.head-menu div{
+		height: 4.86rem;
+		width: 4rem;
+	}
+	header{
+		height: 5rem;
+		line-height: 5rem;
+	}
+}
+@media screen and (min-width: 426px) and (max-width: 2560px){
+   .skill{
+		height: 2rem;
+		width: 5rem;
+		margin-top: 1.8rem;
+		margin-left: 6.5vw;
+	}
+	.carousel-indicators{
+		bottom: -1rem;
+	}
+	.head-menu{
+	    position: absolute;
+	    top: 0;
+	    right: 3.5vw;
+	    float: right;
+	    width:17rem;
+		margin-right: 0;
+	}
+	.head-menu div{
+		height: 4.86rem;
+		width: 4rem;
+	}
+	header{
+		height: 5rem;
+		line-height: 5rem;
+	}
+   
+}
+
+
+/*bootstrap轮播图*/
+.carousel-inner{
+	height: 30vw;
+}
+.item img{
+	height: 30vw;
+	width: 100%;
+}
+
+
+/*轮播图
+.banar{
+	position: relative;
+	height: 35rem;
+}
+.banar-list{
+	position: absolute;
+	z-index: 1;
+	width: 300%;
+	height: 35rem;
+    animation: bannar;
+}
+
+.banarone{
+	float: left;
+	width: 33.33%;
+	height: 35rem;
+	background:url(../img-task8/技能树首页_02.jpg)left no-repeat;
+	background-size:100%;
+}
+.banartwo{
+	float: left;
+	width: 33.33%;
+	height: 35rem;
+	background:url(../img-task8/timg.jpg) left no-repeat;
+	background-size:100%;
+}
+.banarthree{
+	float: left;
+	width: 33.33%;
+	height: 35rem;
+	background:url(../img-task8/技能树首页_02.jpg)  left no-repeat;
+	background-size:100%;
+}
+
+.buttom{
+	position: absolute;
+	left: 50%;
+	top: 92%;
+	z-index: 2;
+	width: 6rem;
+	height: 2rem;
+	margin: 0 auto;
+}
+
+.buttom div{
+	border: solid 1px white;
+	margin: 0.2rem 0.3rem 0  0.4rem;
+	float: left;
+	height: 0.8rem;
+	width: 0.8rem;
+	border-radius: 50%;
+}
+.buttom div:hover{
+	background-color: #8C8C8C;
+}
+.leftbt{
+	z-index: 3;
+	position: absolute;
+	left: 13%;
+	top: 50%;
+}
+.rightbt{
+	z-index: 3;
+	position: absolute;
+	right: 13%;
+	top: 49%;
+}
+.icon-xiangyou1,.icon-xiangyou{
+	color: #C0C0C0;
+	font-size: 5rem;
+}
+*/
+/*主体部分*/
+main{
+	margin: 8rem auto 0;
+    width: 65%;
+}
+
+/*主体第一部分*/
+/* 第一部分 左边*/
+.connection{
+	margin-bottom: 100px;
+	max-height: 52rem;
+}
+.conne-one{
+	padding-top: 1rem;
+	border-right: dashed 2px #DCDCDC;
+	text-align: center;
+	width: 62%;
+	float: left;
+}
+.conne-one div{
+	height: 270px;
+	margin-right: 10%;
+	width: 23%;
+	float: left;
+}
+
+.conne-p2{
+	height: 20px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+.conne-p3{
+	height: 76px;
+	text-align: center;
+	font-size: ]0.8rem;
+	color: #C0C0C0;
+}
+.conne-one a{
+	padding-right: 2rem;
+	font-size:60px ;
+	color: #1FB176;
+}
+/*主体第一部分右边*/
+.conne-two{
+	padding-left: 56px;
+	height:270px ;
+	padding-top: 2rem;
+	width: 30%;
+	float: right;
+}
+.studynb{
+	padding-top: 1rem;
+}
+.conne-two a{
+	color: #1FB176;
+}
+.conne-p4{
+	padding-top: 0.6rem;
+	color: #C0C0C0;
+	font-size: 1rem;
+}
+@media only screen and (max-width: 1024px) {
+	main {
+		width: 100%;
+		margin:0 ;
+	}
+	.conne-one  p{
+		padding: 0;
+	}
+	
+	.conne-one{
+		border-right: none;
+		width: 100%;
+		float: none;
+	}
+	.conne-two{
+		padding-left: 0;
+		float: none;
+	}
+	.conne-one div{
+		height: 170px;
+		float: none;
+		margin: 0 auto;
+		width: 65%;
+	}
+	.conne-one a{
+		padding: 0;
+	}
+	.connection{
+		
+	}
+	.conne-two{
+		border-top: dashed 2px #DCDCDC;
+		text-align: center;
+		margin: 20px auto;
+		width: 80%;
+	}
+}
+@media only screen and (min-width: 1025px) and (max-width: 2560px) {
+     .conne-one a{
+     padding: 0;}
+     .conne-one{
+     	margin-left: 4rem;
+     }
+     .connection{
+     	height: 270px;
+     }
+}
+
+
+
+
+
+/*主体第二部分*/
+.how-learn{
+	margin-bottom: 150px;
+    height: 320px;
+	text-align: center;
+}
+.first-row{
+	height: 70px;
+	margin-bottom: 100px;
+}
+.hl-p{
+	height: 20px;
+	font-weight: bold;
+	font-size: 1.2rem;
+	margin-bottom: 50px;
+}
+/*主体第二部分第一排*/
+.first-list{
+	float: left;
+	height: 70px;
+	width: 25%;
+}
+.first-list div{
+	float: left;
+}
+.serail{
+	color: #1FB176;
+	font-size: 1.2rem;
+	line-height: 70px;
+	border-radius: 50%;
+	border: solid 1px #CCCCCC;
+	height: 70px;
+	width: 70px;
+}
+.pardic{
+	padding-top: 16px;
+	height: 70px;
+	margin-left: 20px;
+	text-align: left;
+	width: 55%;
+}
+.icon-jiantou{
+	margin-right: 30px;
+	line-height: 31px;
+	float: right;
+	padding-top: 1.6rem;
+	color: #1FB176;
+}
+@media only screen and (max-width: 767px) {
+	.first-row{
+		margin-bottom: 0;
+		height: 19rem;
+	}
+	.how-learn{
+		height: 45rem;
+	}
+	.first-list {
+		float: none;
+		height: 40px;
+		width: 80%;
+		margin: 1.5rem auto;
+	}
+	.hl-p{
+		font-size: 1.8rem;
+	}
+	.serail{
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+	}
+	.pardic{
+		height: 40px;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 2000px) {
+	.first-row{
+		width: 80%;
+	    margin: 3rem auto;
+	}
+	.first-list{
+		 margin-left: 1rem;
+	     margin-bottom: 3rem; 
+	     width: 47%;
+	     height: 5rem;
+	}
+	 .pardic{
+	     padding: 0;
+	     width: 14rem;
+	     margin-left: 3vw;
+	 }
+	 .serail{
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+	}
+	.pardic{
+		padding-top: 7px;
+		margin-left: 10px;
+	    width: 70%;
+	}
+	.icon-jiantou {
+		margin-right: 0;
+		padding-top: 0;
+	}
+}
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+	.pardic{
+		padding-top: 7px;
+		margin-left: 10px;
+	    width: 70%;
+	}
+	.icon-jiantou {
+		margin-right: 0;
+		padding-top: 0;
+	}
+}
+
+
+
+
+
+
+
+/*主体第三部分*/
+.students{
+	max-height: 128rem;
+	text-align: center;
+	margin-top: 2rem;
+}
+.students-head{
+	height: 20px;
+	font-weight: bold;
+	font-size: 1.2rem;
+	margin-bottom: 70px;
+}
+.students-show{
+	max-height: 117rem;
+	margin-top: 3rem;
+}
+.show-part{
+	background-color: white;
+	box-shadow: 2px 2px 9px #C0C0C0;
+	max-height: 35rem;
+	margin-left: 1.5vw;
+	border: solid 1px #C0C0C0;
+	float: left;
+	width: 22%;
+}
+.bgimg,.bgimg-one,.bgimg-two,.bgimg-three{
+	margin: 20px auto 35px;
+	height: 110px;
+	width: 110px;
+	background: url(../img-task8/技能树首页_10.jpg) left no-repeat;
+	background-size: 100%;
+}
+.show-p1{
+	height: 20px;
+	font-weight: bold;
+	font-size: 1.8rem;
+}
+.show-p2{
+	color: #C0C0C0;
+	line-height: 1.5rem;
+	text-align: left;
+    margin: 30px auto 30px;
+	width: 70%;
+	
+}
+.bgimg-one{
+	 background: url(../img-task8/技能树首页_03.jpg) left no-repeat;
+	 background-size: 100%;
+}
+.bgimg-two{
+	background: url(../img-task8/技能树首页_05.jpg)left no-repeat;
+	background-size: 100%;
+}
+.bgimg-three{
+	background: url(../img-task8/技能树首页_07.jpg)left no-repeat;
+	background-size: 100%;
+}
+/*尾部四个小点*/
+.btpart{
+	width: 6rem;
+	padding-top: 20px;
+	height: 2rem;
+	margin: 0 auto;
+}
+
+.btpart div{
+	margin: 0.2rem 0.3rem 0  0.4rem;
+	float: left;
+	height: 0.8rem;
+	width: 0.8rem;
+	border-radius: 50%;
+	background-color: #DCDCDC;
+}
+.btpart div:hover{
+	background-color: #1FB176;
+}
+
+@media only screen and (max-width: 768px) {
+	.students-head{
+		font-size: 1.8rem;
+	}
+	.show-part{
+		float: none;
+		width: 80%;
+		margin: 2rem auto;
+	}
+}
+@media only screen and (min-width: 425px) and (max-width: 1154px) {
+	.students{
+		
+		height: 80rem;
+		width: 82%;
+		margin: 0 auto;
+	}
+	.show-part{
+		float: left;
+		width: 46%;
+		margin-left: 0.8rem;
+		margin-bottom: 1.5rem;
+	}
+	.btpart{
+		clear: both;
+	}
+}
+@media only screen and (min-width: 1154px) and (max-width: 2560px) {
+	.students{
+		height: 42rem;
+	}
+	.btpart{
+		clear: both;
+	}
+}
+
+
+
+
+
+
+/*主体第四部分*/
+.stratagy{
+	text-align: center;
+	height: 265px;
+}
+.stratagy-p{
+	height: 20px;
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+.stratagy-img{
+	border: solid 1px #C0C0C0;
+	box-shadow: 2px 2px 9px #C0C0C0;
+	height: 180px;
+	background-color: white;
+	margin-top: 4rem;
+}
+.stratagy-img div{
+	float: left;
+	height: 12rem;
+	width: 19.5%;
+}
+.stratagy-img div:hover{
+	border: solid 1px #C0C0C0;
+	box-shadow: 2px 2px 9px #C0C0C0;
+}
+.stratagy-one{
+	background-size: 100%;
+	background: url(../img-task8/技能树首页_17.jpg) center no-repeat;
+}
+.stratagy-two{
+	background-size: 100%;
+	background: url(../img-task8/技能树首页_19.jpg) center no-repeat;
+}
+.stratagy-three{
+	background-size: 100%;
+	background: url(../img-task8/技能树首页_21.jpg) center no-repeat;
+}
+.stratagy-four{
+	background-size: 100%;
+	background: url(../img-task8/技能树首页_23.jpg) center no-repeat;
+}
+.stratagy-five{
+	background-size: 100%;
+	background: url(../img-task8/技能树首页_25.jpg) center no-repeat;
+}
+@media only screen and (max-width: 425px){
+	.stratagy{
+		height: 81rem;
+		margin-top: 12rem;
+	}
+	.stratagy-p{
+		font-size: 1.8rem;
+	}
+	.stratagy-img{
+		height: 81rem;
+		background:none;
+	}
+	.stratagy-img div{
+		margin-top: 3vw;
+		box-shadow: 2px 2px 2px #CCCCCC;
+		background-color: white;
+		width: 80%;
+		margin: 1rem auto;
+		float: none;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*友情链接*/
+.blogroll{
+	background-color: white;
+	height: 8rem;
+	text-align: center;
+	margin-top: 2rem;
+}
+.blogroll-p{
+	padding-top: 2rem;
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+.blogroll ul{
+	margin: 0 auto;
+	width: 65%;
+	height: 0.6rem;
+	margin-top: 1rem;
+}
+.blogroll li{
+	color: #8C8C8C;
+	font: "微软雅黑";
+	font-size: 0.8rem;
+	margin-left: 4vw ;
+	float: left;
+}
+.blogroll li:hover{
+	border-bottom: solid 1px #1FB176;
+}
+@media only screen and (max-width: 1024px) {
+	.blogroll-p{
+		font-size: 1.8rem;
+	}
+	.blogroll{
+		height: 21rem;
+	}
+	.blogroll ul{
+		margin-left: 4vw;
+		float: left;
+		width: 39%;
+	}
+	.blogroll li{
+		margin-left: 2rem;
+	}
+}
+@media only screen and (min-width: 475px) and (max-width: 1560px) {
+	.blogroll{
+		height: 14rem;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*尾部部分*/
+footer{
+	color: white;
+	background-color: #1da36d;
+	height: 12rem;
+}
+.footerpart{
+	padding-bottom: 2rem;
+	padding-top: 2rem;
+	margin: auto ;
+	text-align: left;
+    width: 60%;
+}
+.footer-part{
+	float: left;
+}
+.footer-partone{
+	margin-left: 10rem;
+	float: left;
+}
+
+.wechat{
+	float: right;
+}
+.wechatone{
+	height: 8rem;
+	width: 8rem;
+	background-size: 100%;
+	background: url(../img-task8/技能树首页_33.jpg) left no-repeat;
+}
+.fp-p{
+	margin-top: 5rem;
+}
+.fp-one{
+	margin-top: 2rem;
+}
+.fp-two{
+	margin-top: 2rem;
+}
+/*京号*/
+.copys{
+	border-top: solid 1px #1FB176;
+	color: white;
+	text-align: center;
+	background-color: #1da36d;
+	line-height: 2rem;
+	height: 2rem;
+}
+@media only screen and (max-width: 1024px) {
+	footer{
+		height: 36rem;
+	}
+	.footerpart{
+		text-align: center;
+	}
+	.footer-part,.footer-partone,.wechat{
+		float: none;
+	}
+	.footer-partone{
+		margin-left: 0;
+		padding-top: 3rem;
+	}
+	.wechat{
+		padding-top: 3rem;
+	}
+	.wechatone{
+		margin: 0 auto;
+	}
+	.copys{
+		height: 5rem;
+	}
+}
