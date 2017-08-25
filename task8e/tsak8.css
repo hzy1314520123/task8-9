@@ -1,4 +1,3 @@
-
 .clearfix { 
 
   *zoom: 1; 
@@ -36,127 +35,114 @@ body a{
 }
 body a:hover{
 	text-decoration: none;
-	border-bottom: solid 1px white;
 	color: white;
 }
 /* 客服热线*/
 .head-top{
-	line-height: 40px;
 	color: #1FB176;
+	
+}
+.headtop{
 	height: 40px;
+	line-height: 40px;
+	margin: 0 auto;
+	width: 65%;
 }
 .service{
-	margin-left: 360px;
+	font-size: 14px;
 	color: #1fb176;
-	float: left;
+	text-align: left;
 }
 .share{
-	margin-right: 360px;
 	float: right;
+ text-align: right;
 }
 .share a{
-	font-size: 1.2rem;
+	font-size: 14px;
 	margin-left: 1rem;
 	font-weight: bold;
 	color: #1FB176;
 }
-@media screen and (max-width: 2560px) {
-	.service{
-		margin-left: 6.5vw;
-	}
-	.share{
-		margin-right: 6.5vw;
+@media only screen and (max-width:425px ) {
+	.headtop{
+		width: 90%;
 	}
 }
-
 
 /*页眉菜单*/
 header{
-    position:relative;
 	background-color:#1FB176; 
-	line-height: 6rem;
-	height: 6rem;
+	
+}
+.headerpart{
+	position: relative;
+	margin: 0 auto;
+	line-height: 100px;
+	height: 100px;
+	width: 65%;
 }
 .skill{
-	height: 4vw;
-    width: 5vw;
-    margin-top: 0.5vw;
+	 height: 50px;
+   width: 100px;
+   margin-top: 25px;
 	background:url(../img-task8/职位列表1234_03.jpg) left no-repeat;
 	background-size: 100%;
 	float: left;
-	margin-left: 14.5vw;
 }
 .head-menu{
-    position: absolute;
-    top: 0;
-    right: 0.5vw;
+	margin-right: -35px;
+	position: absolute;
+	right: 0;
 	font-family: "微软雅黑";
 	color: white;
 	text-align: center;
-	margin-right: 13vw;
 	float: right;
 }
 .head-menu div{
-	height: 5.75rem;
-	width: 6rem;
+	line-height: 100px;
+	height: 100px;
+	width: 100px ;
 	float: left;
 }
 .head-menu div:hover{
 	border-bottom:solid 0.3rem white;
 }
 /*媒体查询*/
-@media screen and (max-width: 425px) {
-	.skill{
-		height: 2rem;
-		width: 5rem;
-		margin-top: 1.8rem;
-		margin-left: 6.5vw;
-	}
-	.carousel-indicators{
-		bottom: -1rem;
-	}
-	.head-menu{
-	    float: right;
-	    width:17rem;
-		margin-right: 0;
+@media only screen and (max-width:768px ) {
+	.headerpart{
+		width: 65%;
 	}
 	.head-menu div{
-		height: 4.86rem;
-		width: 4rem;
-	}
-	header{
-		height: 5rem;
-		line-height: 5rem;
-	}
+	line-height: 100px;
+	height: 100px;
+	width: 50px ;
+	float: left;
 }
-@media screen and (min-width: 426px) and (max-width: 2560px){
-   .skill{
-		height: 2rem;
-		width: 5rem;
-		margin-top: 1.8rem;
-		margin-left: 6.5vw;
+}
+@media only screen and (max-width:425px) {
+	.headerpart {
+		width: 90%;
 	}
-	.carousel-indicators{
-		bottom: -1rem;
+	.head-menu div {
+		line-height: 100px;
+		height: 100px;
+		width: 30px;
+		float: left;
 	}
 	.head-menu{
-	    position: absolute;
-	    top: 0;
-	    right: 3.5vw;
-	    float: right;
-	    width:17rem;
 		margin-right: 0;
 	}
-	.head-menu div{
-		height: 4.86rem;
-		width: 4rem;
-	}
-	header{
-		height: 5rem;
-		line-height: 5rem;
-	}
-   
 }
+
+
+
+
+
+
+
+
+
+
 
 
 /*bootstrap轮播图*/
@@ -244,66 +230,63 @@ header{
 */
 /*主体部分*/
 main{
-	margin: 8rem auto 0;
-    width: 65%;
+	margin: 170px auto 0;
+        width: 62.5%;
 }
 
 /*主体第一部分*/
 /* 第一部分 左边*/
 .connection{
-	margin-bottom: 100px;
-	max-height: 52rem;
+	overflow:hidden;
+	padding:0 15px;
+	margin-bottom: 140px;
 }
 .conne-one{
 	padding-top: 1rem;
-	border-right: dashed 2px #DCDCDC;
 	text-align: center;
-	width: 62%;
+	width: 75%;
 	float: left;
 }
 .conne-one div{
-	height: 270px;
-	margin-right: 10%;
-	width: 23%;
+	padding:0 32px;
+	width: 33.33%;
 	float: left;
 }
 
 .conne-p2{
-	height: 20px;
-	padding-top: 20px;
-	padding-bottom: 30px;
+        display: inline-block;
+        margin: 18px 28px 28px;
 	font-weight: bold;
-	font-size: 1.2rem;
+	font-size: 18px;
 }
 .conne-p3{
-	height: 76px;
-	text-align: center;
-	font-size: ]0.8rem;
+	font-size:16px;
+	text-align: left;
 	color: #C0C0C0;
 }
 .conne-one a{
-	padding-right: 2rem;
+	display:block;
 	font-size:60px ;
 	color: #1FB176;
 }
 /*主体第一部分右边*/
 .conne-two{
+	border-left: dashed 2px #DCDCDC;
 	padding-left: 56px;
-	height:270px ;
-	padding-top: 2rem;
-	width: 30%;
+	padding-top: 20px;
+	width: 25%;
 	float: right;
 }
 .studynb{
-	padding-top: 1rem;
+	margin:30px 0 40px;
 }
 .conne-two a{
 	color: #1FB176;
 }
 .conne-p4{
-	padding-top: 0.6rem;
+	margin-top:15px;
 	color: #C0C0C0;
-	font-size: 1rem;
+	font-size: 16px;
 }
 @media only screen and (max-width: 1024px) {
 	main {
@@ -323,31 +306,27 @@ main{
 		padding-left: 0;
 		float: none;
 	}
+	.conne-p3{
+		text-align: center;
+	}
 	.conne-one div{
-		height: 170px;
+		margin-top:20px;
 		float: none;
 		margin: 0 auto;
 		width: 65%;
 	}
-	.conne-one a{
-		padding: 0;
-	}
-	.connection{
-		
-	}
 	.conne-two{
+		border-left: none;
 		border-top: dashed 2px #DCDCDC;
 		text-align: center;
-		margin: 20px auto;
+		margin: 0 auto;
 		width: 80%;
 	}
 }
-@media only screen and (min-width: 1025px) and (max-width: 2560px) {
+@media only screen and (min-width: 1025px) {
      .conne-one a{
-     padding: 0;}
-     .conne-one{
-     	margin-left: 4rem;
-     }
+                padding: 0;
+	}
      .connection{
      	height: 270px;
      }
@@ -360,31 +339,28 @@ main{
 /*主体第二部分*/
 .how-learn{
 	margin-bottom: 150px;
-    height: 320px;
 	text-align: center;
 }
 .first-row{
-	height: 70px;
+	overflow:hidden;
 	margin-bottom: 100px;
 }
 .hl-p{
-	height: 20px;
 	font-weight: bold;
-	font-size: 1.2rem;
+	font-size: 18px;
 	margin-bottom: 50px;
 }
 /*主体第二部分第一排*/
 .first-list{
+        display: flex;
+        align-items: center;
 	float: left;
-	height: 70px;
 	width: 25%;
 }
-.first-list div{
-	float: left;
-}
 .serail{
+	display:inline-block;
 	color: #1FB176;
-	font-size: 1.2rem;
+	font-size: 18px;
 	line-height: 70px;
 	border-radius: 50%;
 	border: solid 1px #CCCCCC;
@@ -392,66 +368,44 @@ main{
 	width: 70px;
 }
 .pardic{
-	padding-top: 16px;
-	height: 70px;
-	margin-left: 20px;
+	padding:0 13px;
+	display:inline-block;
 	text-align: left;
-	width: 55%;
+	width: 64%;
 }
 .icon-jiantou{
-	margin-right: 30px;
-	line-height: 31px;
-	float: right;
-	padding-top: 1.6rem;
+	display:inline-block;
 	color: #1FB176;
 }
 @media only screen and (max-width: 767px) {
 	.first-row{
 		margin-bottom: 0;
-		height: 19rem;
-	}
-	.how-learn{
-		height: 45rem;
 	}
 	.first-list {
+		 color: #a1a1a1;
+		justify-content: left;
 		float: none;
-		height: 40px;
 		width: 80%;
-		margin: 1.5rem auto;
+		margin: 25px auto;
 	}
-	.hl-p{
-		font-size: 1.8rem;
-	}
-	.serail{
-		width: 40px;
-		height: 40px;
-		line-height: 40px;
-	}
-	.pardic{
-		height: 40px;
-	}
+	
+	
 }
-@media only screen and (min-width: 768px) and (max-width: 2000px) {
+@media only screen and (min-width: 768px) and (max-width: 1800px) {
 	.first-row{
-		width: 80%;
-	    margin: 3rem auto;
+             width: 80%;
+	     margin: 3rem auto;
 	}
 	.first-list{
-		 margin-left: 1rem;
+	     margin-left: 1rem;
 	     margin-bottom: 3rem; 
 	     width: 47%;
-	     height: 5rem;
 	}
 	 .pardic{
 	     padding: 0;
 	     width: 14rem;
 	     margin-left: 3vw;
 	 }
-	 .serail{
-		width: 40px;
-		height: 40px;
-		line-height: 40px;
-	}
 	.pardic{
 		padding-top: 7px;
 		margin-left: 10px;
@@ -482,48 +436,48 @@ main{
 
 /*主体第三部分*/
 .students{
-	max-height: 128rem;
+	overflow:hidden;
 	text-align: center;
-	margin-top: 2rem;
 }
 .students-head{
-	height: 20px;
 	font-weight: bold;
-	font-size: 1.2rem;
+	font-size: 18px;
 	margin-bottom: 70px;
 }
 .students-show{
-	max-height: 117rem;
-	margin-top: 3rem;
+	max-height: 117rem;	
+}
+.showpart{
+	float:left;
+	padding: 0 15px;
+        width:25%
 }
 .show-part{
+	margin-bottom: 20px;
+	padding: 20px 30px 40px;
 	background-color: white;
 	box-shadow: 2px 2px 9px #C0C0C0;
-	max-height: 35rem;
-	margin-left: 1.5vw;
 	border: solid 1px #C0C0C0;
 	float: left;
-	width: 22%;
 }
 .bgimg,.bgimg-one,.bgimg-two,.bgimg-three{
-	margin: 20px auto 35px;
+	margin: 0 auto;
 	height: 110px;
 	width: 110px;
 	background: url(../img-task8/技能树首页_10.jpg) left no-repeat;
 	background-size: 100%;
 }
 .show-p1{
-	height: 20px;
+	margin:30px 0 20px;
 	font-weight: bold;
-	font-size: 1.8rem;
+	font-size: 18px;
 }
 .show-p2{
+	font-size:16px;
 	color: #C0C0C0;
-	line-height: 1.5rem;
+	line-height: 1.5;
 	text-align: left;
-    margin: 30px auto 30px;
-	width: 70%;
-	
+	letter-spacing:1px;
 }
 .bgimg-one{
 	 background: url(../img-task8/技能树首页_03.jpg) left no-repeat;
@@ -540,9 +494,8 @@ main{
 /*尾部四个小点*/
 .btpart{
 	width: 6rem;
-	padding-top: 20px;
-	height: 2rem;
-	margin: 0 auto;
+	height: 20px;
+	margin: 20px auto 0;
 }
 
 .btpart div{
@@ -558,40 +511,19 @@ main{
 }
 
 @media only screen and (max-width: 768px) {
-	.students-head{
-		font-size: 1.8rem;
-	}
-	.show-part{
+	.showpart{
 		float: none;
 		width: 80%;
-		margin: 2rem auto;
-	}
-}
-@media only screen and (min-width: 425px) and (max-width: 1154px) {
-	.students{
-		
-		height: 80rem;
-		width: 82%;
 		margin: 0 auto;
 	}
-	.show-part{
+}
+@media only screen and (min-width: 425px) and (max-width: 1153px) {
+	.showpart{
 		float: left;
-		width: 46%;
-		margin-left: 0.8rem;
-		margin-bottom: 1.5rem;
-	}
-	.btpart{
-		clear: both;
+		width: 50%;
 	}
 }
-@media only screen and (min-width: 1154px) and (max-width: 2560px) {
-	.students{
-		height: 42rem;
-	}
-	.btpart{
-		clear: both;
-	}
-}
+
 
 
 
@@ -609,42 +541,39 @@ main{
 	font-size: 1.2rem;
 }
 .stratagy-img{
-	border: solid 1px #C0C0C0;
-	box-shadow: 2px 2px 9px #C0C0C0;
-	height: 180px;
+	margin-top: 60px;
+	height: 178px;
 	background-color: white;
-	margin-top: 4rem;
+}
+.stratagy-img:hover{
+	box-shadow: 0px 0px 1px #C0C0C0;
 }
 .stratagy-img div{
 	float: left;
-	height: 12rem;
-	width: 19.5%;
+	height: 178px;
+	width: 20%;
 }
 .stratagy-img div:hover{
 	border: solid 1px #C0C0C0;
-	box-shadow: 2px 2px 9px #C0C0C0;
+	box-shadow: 0px 0px 9px #C0C0C0;
+
 }
 .stratagy-one{
-	background-size: 100%;
 	background: url(../img-task8/技能树首页_17.jpg) center no-repeat;
 }
 .stratagy-two{
-	background-size: 100%;
 	background: url(../img-task8/技能树首页_19.jpg) center no-repeat;
 }
 .stratagy-three{
-	background-size: 100%;
 	background: url(../img-task8/技能树首页_21.jpg) center no-repeat;
 }
 .stratagy-four{
-	background-size: 100%;
 	background: url(../img-task8/技能树首页_23.jpg) center no-repeat;
 }
 .stratagy-five{
-	background-size: 100%;
 	background: url(../img-task8/技能树首页_25.jpg) center no-repeat;
 }
-@media only screen and (max-width: 425px){
+@media only screen and (max-width: 768px){
 	.stratagy{
 		height: 81rem;
 		margin-top: 12rem;
@@ -653,15 +582,15 @@ main{
 		font-size: 1.8rem;
 	}
 	.stratagy-img{
+		border:none;
 		height: 81rem;
 		background:none;
 	}
 	.stratagy-img div{
-		margin-top: 3vw;
 		box-shadow: 2px 2px 2px #CCCCCC;
 		background-color: white;
 		width: 80%;
-		margin: 1rem auto;
+		margin: 18px auto;
 		float: none;
 	}
 }
@@ -696,54 +625,51 @@ main{
 /*友情链接*/
 .blogroll{
 	background-color: white;
-	height: 8rem;
 	text-align: center;
-	margin-top: 2rem;
+	margin-top: 140px;
 }
 .blogroll-p{
-	padding-top: 2rem;
 	font-weight: bold;
-	font-size: 1.2rem;
+	font-size: 20px;
 }
 .blogroll ul{
-	margin: 0 auto;
+	overflow: hidden;
+	padding:8px 0;
+	margin: 5px auto;
 	width: 65%;
-	height: 0.6rem;
-	margin-top: 1rem;
 }
 .blogroll li{
 	color: #8C8C8C;
 	font: "微软雅黑";
-	font-size: 0.8rem;
-	margin-left: 4vw ;
+	font-size: 14px;
+	margin-right: 5.3%;
 	float: left;
 }
 .blogroll li:hover{
-	border-bottom: solid 1px #1FB176;
+	text-decoration: underline;
 }
 @media only screen and (max-width: 1024px) {
-	.blogroll-p{
-		font-size: 1.8rem;
-	}
 	.blogroll{
-		height: 21rem;
+		overflow: hidden;
 	}
 	.blogroll ul{
-		margin-left: 4vw;
+		margin-left: 5vw;
 		float: left;
-		width: 39%;
+		width: 45%;
 	}
 	.blogroll li{
 		margin-left: 2rem;
 	}
 }
-@media only screen and (min-width: 475px) and (max-width: 1560px) {
-	.blogroll{
-		height: 14rem;
-	}
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+	.blogroll li{
+	     color: #8C8C8C;
+	     font: "微软雅黑";
+	     font-size: 14px;
+	     width: 13%;
+	     float: left;
 }
-
-
+}
 
 
 
@@ -763,6 +689,9 @@ main{
 
 
 /*尾部部分*/
+footer a:hover{
+	border-bottom: solid 1px white;
+}
 footer{
 	color: white;
 	background-color: #1da36d;
@@ -830,7 +759,15 @@ footer{
 	.wechatone{
 		margin: 0 auto;
 	}
-	.copys{
-		height: 5rem;
-	}
 }
+@media only screen and (max-width: 522px){
+	.copys{
+	       height:5rem
+	}		
+}
+@media only screen and (min-width: 522px){
+	.copys{
+	       line-height:3rem
+	       height:3rem
+	}		
+}	
