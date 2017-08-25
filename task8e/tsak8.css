@@ -237,7 +237,6 @@ main{
 /*主体第一部分*/
 /* 第一部分 左边*/
 .connection{
-	overflow:hidden;
 	padding:0 15px;
 	margin-bottom: 140px;
 }
